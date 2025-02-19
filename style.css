@@ -73,7 +73,7 @@ footer{
    justify-content: space-around;
    align-items: center;
   
-   box-shadow: 8px 8px 8px 8px  rgba(33, 32, 32, 0.549);
+   box-shadow: 8px 8px 8px 8px  rgba(33, 32, 32, 0.171);
    z-index: 100;
 }
 
@@ -385,7 +385,30 @@ background-color: #005457;
     background-color: aliceblue;
 } */ 
 
+/* .inner-rightbottom{
     grid: inner-rightbottom;
     background-color: #952c2c;
 
-} */ */
+} */
+.footnote{
+    margin: 0px 0px 0px 0px;
+    height: 150px;
+    max-width: 700px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(220, 20, 60, 0.399);
+    border: 2px dashed black;
+    
+    
+
+}
+
+.inspirationwriting{
+    margin: 20px 0px 0px 0px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.inspirationwriting p{
+    font-size: 1.5rem;
+}
