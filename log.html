@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Serif+Display:ital@0;1&display=swap');
+        body{
+            font-family: "Crimson Text", serif;
+            font-weight: 600;
+            font-style: normal;
+            margin: 0;
+            box-sizing: border-box;
+            height: 100vh;
+            width: 100vw;
+        }
+        h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+    text-align: center;
+}
+h1{
+font-size: 40px;
+}
+h2{
+    font-size: 40px;
+    text-shadow:10px 10px 10px #000000c4;
+
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 25px;
+}
+
+h5{
+    font-size:20px ;
+}
+
+h6{
+    font-size: 15px;
+}
+
+header{
+             display: flex;
+            background: rgba(255, 254, 254, 0.732);
+            -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+            width: 95%;
+            top: 5px;
+            position:sticky;
+            left:2.5%;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 0px 8px 8px  rgba(133, 130, 130, 0.7);
+            z-index: 100;
+
+
+        }
+        footer{
+            position: relative;
+        bottom: 0;
+           
+        }
+        
+        li{
+            display: inline;
+            list-style-type: none;
+            margin: 0px 0px 0px 15px;
+        }
+        li a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+            font-size: 1.4rem;
+            font-weight: 900;
+        }
+        .Profile ,.btn1, .btn2{
+        border: none;
+        padding: 8px;
+        }
+        .btn1{
+            background-color: #000000;
+            color: white;
+            border-radius: 20px;
+        }
+        .btn2{
+            background-color: #e28181;
+            color: white;
+            border-radius: 8px;
+        }
+        .log-in-img{
+            height: 25px;
+            width: 25px;    
+        }
+        .card{
+            background-image: url(Media/nightskybackgrnd.jpg);
+             background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .log-in-form{
+         height: 400px;
+         width: 300px;
+         margin-left: 400px;
+         border: 12px double white;
+         text-align: center;
+         -webkit-backdrop-filter: blur(5px);
+         backdrop-filter: blur(5px);
+        }
+        fieldset{
+            height: 350px;
+            width: 250px;
+            margin-left: 12px;
+            margin-top: 5px;
+
+        }
+       legend{
+            color: white;
+       }
+       .log-in-btn{
+            margin-top: 20px;
+       }
+       .log-in{
+            padding: 5px;
+            width: 110px;
+            border: none;
+            border-radius: 15px;
+            background-color: #000000;
+            color: white;
+            font-weight: bold;
+       }
+       .Profile a{
+    text-decoration: none;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="Media/logo.gif" height="80px">
+        </div>
+        <div class="Nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Developers.html">Developers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="Profile">
+            <button class="btn1"><a href="log.html">LOG IN</a></button>
+            <button class="btn2"><a href="signup.html">SIGN UP</a></button>
+        </div>
+        </header>
+        <main>
+            <section class="card">
+                <!-- <div class="log-in-left">
+                    <h2>LOG IN</h2>
+                </div> -->
+                 <div class="log-in-form">
+                    <form>
+                        <fieldset>
+                            <br>
+                            <legend>LOG-IN</legend>
+                            <label for="username"><img src="Media/username.png" class="log-in-img"></label>
+                            <input type="text" name="username"  placeholder="username" required>
+                            <br>
+                            <label for="password"><img src="Media/lock.png" class="log-in-img">
+                            </label>
+                            <input type="password" required>
+                            <div class="log-in-btn">
+                                <button class="log-in">LOG IN</button>
+                            </div>
+                    </fieldset>
+
+                </form>
+            </div>
+            </section> 
+            
+        </main>
+        <footer>
+            <!-- <div class="logo">
+                <img src="Media/logo.gif" height="80px">
+              </div>
+              <div class="Nav">
+                  <ul>
+                    <div class="nav1">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </div>
+                    <div class="nav2">
+    
+                        <li><a href="Developers.html">Developers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </div>
+          </div> -->
+              <hr>
+              <h5 style="text-align: center;">All Rights are reserved @2025</h5>
+        </footer>
+    </body>
+</body>
+</html>
