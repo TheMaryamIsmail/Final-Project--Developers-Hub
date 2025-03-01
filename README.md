@@ -31,7 +31,7 @@ These tools and frameworks helped bring Developers Hub to life, ensuring a seaml
 # Vision of Developers Hub
 
 To create a unified, innovative, and inclusive platform that empowers developers nationwide by providing the tools, resources, and community support needed to foster collaboration, learning, and growth in the tech industry.
-#Timeline for Development of "Developers Hub" Website
+# Timeline for Development of "Developers Hub" Website
 
 Date	Activity
 17 Feb 2025	Objective and name of the website were decided.
