@@ -94,20 +94,20 @@ header{
             border-radius: 20px;
         }
         .log-in-img{
-            height: 25px;
-            width: 25px;    
+            margin-top: 5px;
+            height: 50px;
+            width: 50px;    
         }
         .card{
             background-image: url(Media/nightskybackgrnd.jpg);
              background-repeat: no-repeat;
             background-size: cover;
-            
         }
         .log-in-form{
-         height: 400px;
+         height: 390px;
          width: 300px;
-         margin-left: 400px;
-         border: 12px double white;
+         margin-left: 500px;
+         /* border: 2px dotted white; */
          text-align: center;
          -webkit-backdrop-filter: blur(5px);
          backdrop-filter: blur(5px);
@@ -123,7 +123,13 @@ header{
             color: white;
        }
        .log-in-btn{
-            margin-top: 20px;
+            margin-top: 80px;
+       }
+       input{
+        background-color: transparent;
+        height: 25px;
+        border-radius: 15px;
+        margin-top: 5px;
        }
        .log-in{
             padding: 5px;
@@ -169,10 +175,12 @@ header{
                             <br>
                             <legend>LOG-IN</legend>
                             <label for="username"><img src="Media/username.png" class="log-in-img"></label>
+                            <br>
                             <input type="text" name="username"  placeholder="username" required>
                             <br>
                             <label for="password"><img src="Media/lock.png" class="log-in-img">
                             </label>
+                            <br>
                             <input type="password" required>
                             <div class="log-in-btn">
                                 <button class="log-in">LOG IN</button>
