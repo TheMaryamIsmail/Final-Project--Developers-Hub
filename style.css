@@ -627,24 +627,32 @@ input{
    height: 400px;
 }
 .sign-up-form{
-    background-color: rgba(255, 255, 255, 0.166);
-    height: 230px;
+    background-image:linear-gradient(to right,rgba(255, 255, 255, 0.608), gray, rgba(255, 255, 255, 0.679), gray, rgba(255, 255, 255, 0.658)); 
+    height: 300px;
     width: 460px;
     margin-left: 80px;
+    border-radius: 05%;
     text-align: center;
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
-    border: 3px dashed white;
     
 }
+.sign-up-form{
+    position: relative;
+    top: 10%;
+    left: 2%;
+}
 .signup-btn{
-    margin-top: 30px;
+    margin-top: 20px;
     border: none;
     border-radius: 10px;
     padding: 10px;
-    background-color: rgb(169, 168, 168);
-    color: #005457;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
     font-weight:bold ;
+}
+.section4-legend{
+  padding-top: 50px;
 }
 .Profile a{
     text-decoration: none;
