@@ -185,7 +185,7 @@ h6{
 }
 .inner-container{
     /* margin-left: 2px; */
-    transition: 0.5s;
+    transition: 0.8s;
     cursor: pointer;
     background-color: #e259598d;
     color: #000000;
@@ -199,7 +199,7 @@ h6{
     opacity: 0.2;
 }
 .inner-container:hover{
-    transform: scale(1.09)
+    transform: scale(1.18)
 }
 .text-inner-container{
     /* margin: 10px 10px 10px 10px; */
@@ -215,7 +215,7 @@ h6{
 }
 .img1 img{
     height: 200px;
-    width: 200px;
+    width: 280px;
     margin: 0px 0px 0px 5px; 
 }
 .partnership{
@@ -273,8 +273,8 @@ h6{
 .motivation{
     display: flex;
     gap: 115px;
-    height: 400px;
-    width: 400px;
+    height: 420px;
+    width: 410px;
 }
 /* .quotation{
     display: flex;
@@ -286,7 +286,7 @@ h6{
 .quotes{
     /* display: flex;
     flex-direction: column; */
-    height: 400px;
+    height: 415px;
     width: 200px;
     background-color: #598baa7f;
     padding: 10px;
@@ -323,15 +323,15 @@ h6{
     height: 400px;
     width: 250px;
     padding: 10px;
-    background-color: #84233a40;
+    background-color: #00000040;
     border-radius: 10px;
     
 
 }
 .current-Era{
-    height: 200px;
+    height: 300px;
     padding: 10px;
-    background-color: #c84c5064;
+    background-color: #0000004b;
     border-radius: 10px;
     
 }
@@ -339,7 +339,7 @@ h6{
     height: 400px;
     width: 250px;
     padding: 10px;
-    background-color: #84233a40;
+    background-color: #07060640;
     border-radius: 10px;
     
 
