@@ -27,6 +27,8 @@ Freepik: For sourcing images and videos.
 
 Flaticon: For high-quality icons.
 
+Drift: For Real time Communucation.
+
 These tools and frameworks helped bring Developers Hub to life, ensuring a seamless and visually appealing experience for all user.
 
 # Vision of Developers Hub
