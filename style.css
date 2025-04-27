@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Serif+Display:ital@0;1&display=swap');
 
-/* General Styles */
 body {
   font-family: "Crimson Text", serif;
   font-weight: 600;
@@ -133,12 +132,7 @@ video {
   backdrop-filter: blur(5px);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
   text-align: center;
 }
@@ -185,12 +179,12 @@ h6 {
   text-align: center;
 }
 
-.containers:hover > :not(:hover) {
+/* .containers:hover > :not(:hover) {
   opacity: 0.2;
-}
+} */
 
 .inner-container:hover {
-  transform: scale(1.18);
+  transform: scale(1.02);
 }
 
 .text-inner-container {
@@ -739,4 +733,4 @@ input {
 
   .form {
     width: 90%;
-   
+  }
