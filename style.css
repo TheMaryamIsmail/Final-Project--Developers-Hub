@@ -179,12 +179,12 @@ h6 {
   text-align: center;
 }
 
-/* .containers:hover > :not(:hover) {
+.containers:hover > :not(:hover) {
   opacity: 0.2;
-} */
+}
 
 .inner-container:hover {
-  transform: scale(1.02);
+  transform: scale(1.03);
 }
 
 .text-inner-container {
