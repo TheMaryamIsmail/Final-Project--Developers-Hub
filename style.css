@@ -206,7 +206,9 @@ h6 {
 
 .partnership {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   height: auto;
   width: auto;
   gap: 40px;
@@ -232,9 +234,9 @@ h6 {
   transform: scale(1.2);
 }
 
-.partnership:hover > :not(:hover) {
+/* .partnership:hover > :not(:hover) {
   opacity: 0.1;
-}
+} */
 
 .img2 {
   text-align: center;
@@ -490,11 +492,11 @@ h6 {
   height: 560px;
   width: 95%;
   margin: 0px 0px 0px 20px;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 
 legend {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .section2 .form .contact-field p {
@@ -502,11 +504,11 @@ legend {
 }
 
 .form {
-  background-image: url(Media/spacebg.png);
+  /* background-image: url(Media/spacebg.png); */
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px;
-  margin: 0px 0px 0px 270px;
+  margin: 0px 0px 0px 10px;
   height: 500px;
   width: 540px;
 }
@@ -542,7 +544,19 @@ input {
   height: 20px;
   width: 350px;
 }
-
+.location{
+  display:flex;
+}
+iframe{
+  margin-top: 70px;
+  border-radius: 2.5%;
+}
+  .visit-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
 .section3 {
   margin: 0px 0px 0px 90px;
 }
