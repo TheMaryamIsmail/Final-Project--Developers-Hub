@@ -237,7 +237,10 @@ h6 {
 /* .partnership:hover > :not(:hover) {
   opacity: 0.1;
 } */
-
+.our-work-img{
+  display: flex;
+  justify-content: space-evenly;
+}
 .img2 {
   text-align: center;
   margin: 0px 10px 10px 0px;
@@ -748,3 +751,4 @@ iframe{
   .form {
     width: 90%;
   }
+}
