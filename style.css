@@ -4,7 +4,7 @@ body {
   font-family: "Crimson Text", serif;
   font-weight: 600;
   margin: 0;
-  padding: 0;
+  padding:0;
 }
 
 .root {
@@ -94,7 +94,7 @@ li a {
 }
 
 .btn2 {
-  background-color: #000000;
+  background-color: #c87575;
   color: white;
   margin: 10px;
   border-radius: 20px;
@@ -103,19 +103,20 @@ li a {
 .vid1 {
   height: 600px;
   width: 100%;
+  margin-top:4px;
 }
 
 video {
   height: 600px;
   width: 100%;
-  opacity: 50%;
+  opacity: 30%;
 }
 
 .hero-section {
   position: relative;
   bottom: 400px;
   text-align: center;
-  color: rgb(252, 252, 45);
+  color: rgb(0, 0, 0);
   border-radius: 5px;
 }
 
@@ -172,16 +173,16 @@ h6 {
 .inner-container {
   transition: 0.8s;
   cursor: pointer;
-  background-color: #e259598d;
+  background-color: rgba(240, 171, 168, 0.714);
   color: #000000;
   border-radius: 20px;
   backdrop-filter: blur(5px);
   text-align: center;
 }
 
-.containers:hover > :not(:hover) {
+/* .containers:hover > :not(:hover) {
   opacity: 0.2;
-}
+} */
 
 .inner-container:hover {
   transform: scale(1.03);
@@ -214,6 +215,7 @@ h6 {
   gap: 40px;
   padding: 20px;
   margin: 0px 0px 0px 10px;
+  background-color: #000000;
 }
 
 .partners {
@@ -221,8 +223,8 @@ h6 {
   height: 230px;
   width: 500px;
   justify-content: space-around;
-  background-color: #00000092;
-  color: rgb(254, 254, 254);
+  background-color: #efcacae8;
+  color: black
   backdrop-filter: blur(5px);
   transition: 0.5s;
   cursor: pointer;
@@ -231,7 +233,7 @@ h6 {
 }
 
 .partners:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 /* .partnership:hover > :not(:hover) {
@@ -240,6 +242,15 @@ h6 {
 .our-work-img{
   display: flex;
   justify-content: space-evenly;
+}
+.our-work-description{
+  border: #000000 2px solid;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.our-work-description:hover {
+  transform: rotateX(300deg);
+
 }
 .img2 {
   text-align: center;
