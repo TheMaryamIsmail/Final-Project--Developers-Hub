@@ -1,5 +1,5 @@
 # Developer Hub
-#status
+# status
 Under Development, suggestions and forks are welcome.
 
 # Instructor Sir Aqib Rajput
@@ -29,7 +29,7 @@ Freepik: For sourcing images and videos.
 
 Flaticon: For high-quality icons.
 
-Drift: For Real time Communucation.
+Drift: For Real time Communication.
 
 These tools and frameworks helped bring Developers Hub to life, ensuring a seamless and visually appealing experience for all user.
 
