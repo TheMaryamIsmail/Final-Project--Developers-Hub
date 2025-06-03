@@ -1,6 +1,6 @@
 # Developer Hub
 # status
-Under Development, suggestions and forks are welcome.
+Under Development
 
 # Instructor Sir Aqib Rajput
 
