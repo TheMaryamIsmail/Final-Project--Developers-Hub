@@ -30,31 +30,9 @@ Developers Hub is designed to connect, inspire, and empower developers nationwid
 - **Communication:** Drift (real-time chat)
 
 ---
-
-## 📸 Screenshots
-
-<!-- Add screenshots of your site here -->
-<!-- ![Home Page](screenshots/home.png) -->
-
----
-
 ## 🎯 Vision
 
 To create a unified, innovative, and inclusive platform that empowers developers by providing tools, resources, and community support for collaboration, learning, and growth.
-
----
-
-## 📅 Development Timeline
-
-| Date         | Activity                                           |
-|--------------|---------------------------------------------------|
-| 17 Feb 2025  | Project objective and name decided                |
-| 18 Feb 2025  | Website structure developed using HTML5           |
-| 19 Feb 2025  | CSS applied for design and appearance             |
-| 20 Feb 2025  | Fixed HTML5 and CSS errors                        |
-| 21 Feb 2025  | Added responsive design features                  |
-| 22 Feb 2025  | Additional bug fixes                              |
-| 26 Feb 2025  | Deployed and presented website on GitHub          |
 
 ---
 
