@@ -7,7 +7,7 @@ body {
   padding:0;
 }
 
-.root {
+:root {
   /* Color and font variables */
   --base-clr-lt: white;
   --base-clr-dk: black;
@@ -233,7 +233,7 @@ width: 90px;
   width: 500px;
   justify-content: space-around;
   background-color: #efcacae8;
-  color: black
+  color: black;
   backdrop-filter: blur(5px);
   transition: 0.5s;
   cursor: pointer;
