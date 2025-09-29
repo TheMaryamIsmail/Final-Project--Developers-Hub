@@ -75,7 +75,7 @@ To run Developers Hub locally:
 
 ## 🤝 Credits
 
-- **Instructor:** Sir Aqib Rajput
+- **Instructor:** Aqib Rajput
 - **Prepared by:** Maryam Ismail
 
 ---
