@@ -4,8 +4,12 @@ body {
   font-family: "Crimson Text", serif;
   font-weight: 600;
   margin: 0;
-  padding:0;
+<<<<<<< HEAD
+  padding: 0;
+=======
+  padding: 0;
 }
+>>>>>>> fa4ffff09b23ec062fa5e9e81c4d3dcdd4521976
 
 :root {
   /* Color and font variables */
@@ -771,4 +775,3 @@ iframe{
   .form {
     width: 90%;
   }
-}
